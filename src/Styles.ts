@@ -3,7 +3,6 @@ const Styles = {
     mainDivStyle: "bg-blue-50 border-4 flex flex-col justify-center items-center w-full min-h-screen",
     loginDivStyle: "border-2 flex flex-col items-center mx-4 my-4 px-2 py-8 bg-gray-100 w-[24%]",
     oAuthDivStyle: "border flex gap-2",
-    errorModalDivStyle: "",
 
     // Form & Input
     formStyle: "bg-blue-200 border flex flex-col mt-8 mb-8 px-4 py-2 w-[70%]",
