@@ -1,12 +1,12 @@
 import { useNavigate } from "react-router-dom";
-import "../index.css";
-import Styles from "../Styles";
+import "../../index.css";
+import Styles from "../../Styles";
 
 const Login = () => {
     // METHODS: Login & Sign Up
     const navigate = useNavigate();
     const handleLogin = () => {
-        navigate("/Dashboard");
+        navigate("/Home");
     }
 
     const handleSignUp = () => {

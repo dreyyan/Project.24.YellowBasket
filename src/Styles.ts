@@ -16,6 +16,10 @@ const Styles = {
     // Headers
     h1Style: "text-5xl font-bold",
     h2Style: "text-3xl font-bold",
+    logoHeaderStyle: "text-5xl font-bold color-primary",
+
+    // Text
+    linkTextStyle: "text-3xl font-bold"
 }
 
 export default Styles

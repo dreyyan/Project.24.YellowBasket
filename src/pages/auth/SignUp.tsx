@@ -1,10 +1,10 @@
 import { Link, useNavigate } from "react-router-dom";
-import "../index.css";
-import Styles from "../Styles";
+import "../../index.css";
+import Styles from "../../Styles";
 import { useState } from "react";
 
 // Components
-import PopUpModal from "../components/PopUpModal"
+import PopUpModal from "../../components/PopUpModal";
 
 const SignUp = () => {
     // States
