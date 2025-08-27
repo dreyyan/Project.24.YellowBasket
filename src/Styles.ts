@@ -19,7 +19,7 @@ const Styles = {
     logoHeaderStyle: "text-5xl font-bold color-primary",
 
     // Text
-    linkTextStyle: "text-3xl font-bold"
+    linkTextStyle: "text-2xl font-bold"
 }
 
 export default Styles

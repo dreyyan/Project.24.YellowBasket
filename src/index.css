@@ -11,6 +11,10 @@
     background-color: #FDF8E1;
 }
 
+.bg-gray {
+    background-color: #1E2939;
+}
+
 .color-primary {
     color: #F5C639;
 }
@@ -21,4 +25,8 @@
 
 .color-background {
     color: #FDF8E1;
+}
+
+.color-gray {
+    color: #1E2939;
 }
