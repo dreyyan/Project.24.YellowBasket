@@ -19,13 +19,13 @@ const BurgerMenu = () => {
 
             {/* Burger Menu Navigation Links */}
             {isOpen && 
-                <div className="flex flex-col w-60 h-70 bg-background absolute top-14.5 right-[1.35%] pt-[1%] pr-[2%] border-b-[2px] border-r-[3px] rounded-tl-[10px] rounded-bl-[10px] rounded-br-[10px]">
-                    <div className="flex justify-end items-center bg-background h-10 border-b-2"><Link to="/MyAccount">My Account</Link></div>
-                    <div className="flex justify-end items-center bg-background h-10 border-b-2"><Link to="/Orders">Orders</Link></div>
-                    <div className="flex justify-end items-center bg-background h-10 border-b-2"><Link to="/Wishlist">Wishlist</Link></div>
-                    <div className="flex justify-end items-center bg-background h-10 border-b-2"><Link to="/Settings">Settings</Link></div>
-                    <div className="flex justify-end items-center bg-background h-10 border-b-2"><Link to="/Help">Help</Link></div>
-                    <div className="flex justify-end items-center bg-background h-10"><Link to="/">Log Out</Link></div>
+                <div className="flex flex-col w-40 h-60 bg-background absolute top-14.5 right-[1.35%] border-r-[3px] rounded-tl-[10px] rounded-bl-[10px] rounded-br-[10px]">
+                    <div className="flex justify-end items-center bg-background h-10 border-b-1 pr-[6%] text-lg font-semibold"><Link to="/MyAccount">My Account</Link></div>
+                    <div className="flex justify-end items-center bg-background h-10 border-b-1 pr-[6%] text-lg font-semibold"><Link to="/Orders">Orders</Link></div>
+                    <div className="flex justify-end items-center bg-background h-10 border-b-1 pr-[6%] text-lg font-semibold"><Link to="/Wishlist">Wishlist</Link></div>
+                    <div className="flex justify-end items-center bg-background h-10 border-b-1 pr-[6%] text-lg font-semibold"><Link to="/Settings">Settings</Link></div>
+                    <div className="flex justify-end items-center bg-background h-10 border-b-1 pr-[6%] text-lg font-semibold"><Link to="/Help">Help</Link></div>
+                    <div className="flex justify-end items-center bg-background h-10 pr-[6%] text-lg font-semibold"><Link to="/">Log Out</Link></div>
                 </div>
             }
         </div>

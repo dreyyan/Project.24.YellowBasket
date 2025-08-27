@@ -1,11 +1,11 @@
 const Styles = {
     // Div
-    mainDivStyle: "bg-blue-50 border-4 flex flex-col justify-center items-center w-full min-h-screen",
-    loginDivStyle: "border-2 flex flex-col items-center mx-4 my-4 px-2 py-8 bg-gray-100 w-[24%]",
-    oAuthDivStyle: "border flex gap-2",
+    mainDivStyle: "bg-blue-500 flex flex-col justify-center items-center w-full min-h-screen",
+    loginDivStyle: "flex flex-col items-center mx-4 my-4 px-2 py-8 bg-gray-100 w-[24%]",
+    oAuthDivStyle: "flex gap-2",
 
     // Form & Input
-    formStyle: "bg-blue-200 border flex flex-col mt-8 mb-8 px-4 py-2 w-[70%]",
+    formStyle: "bg-blue-200 flex flex-col mt-8 mb-8 px-4 py-2 w-[70%]",
     inputStyle: "bg-gray-100 rounded-md mb-2 px-3 py-3 text-sm focus:outline-none",
     inputLabelStyle: "text-sm",
 
@@ -17,9 +17,11 @@ const Styles = {
     h1Style: "text-5xl font-bold",
     h2Style: "text-3xl font-bold",
     logoHeaderStyle: "text-5xl font-bold color-primary",
-
+    heroSectionh1Style: "text-8xl font-bold",
+    heroSectionh2Style: "text-5xl font-bold mb-[2%]",
+    heroSectionpStyle: "text-xl",
     // Text
-    linkTextStyle: "text-2xl font-bold"
+    linkTextStyle: "text-2xl font-semibold color-gray"
 }
 
 export default Styles

@@ -1,4 +1,11 @@
 @import "tailwindcss";
+
+body {
+  font-family: 'Libertinus Serif Display', serif;
+  color: #1E2939;
+}
+
+/* COLORS */
 .bg-primary {
     background-color: #F5C639;
 }

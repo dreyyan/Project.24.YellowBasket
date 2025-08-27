@@ -8,13 +8,12 @@ export default {
     extend: {
       fontFamily: {
         // insert fonts
+        'libertinus-display': ['"Libertinus Serif Display"', 'serif'],
       },
       colors: {
         primary: "#F5C639",
         secondary: "#F9DC5C",
         background: "#FDF8E1",
-
-        
       }
     },
   },

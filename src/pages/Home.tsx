@@ -8,14 +8,20 @@ const Home = () => {
     document.title = "YellowBasket: Dashboard";
     return (
         <div className="flex flex-row">
-            <div className="grid grid-cols-3 gap-1 w-full h-500">
-                <div className="border-2 h-20 row-span-6 col-span-3">
-                    <div className="border flex h-full">
+            <div className="grid grid-cols-3 gap-1 w-full h-200">
+                <div className="h-20 row-span-6 col-span-3">
+                    <div className="flex h-full">
                         <Header/>
                     </div>
                 </div>
-                <div className="border border-black row-span-200 col-span-3">HERO SECTION</div>
-                <div className="border border-black h-34 row-span-14 col-span-3">BOTTOM NAVIGATION</div>
+                <div className="flex flex-col row-span-200 col-span-3 bg-background px-[4%] pt-[10%]">
+                    <div className="">
+                        <h1 className={Styles.heroSectionh1Style}>Shop at</h1>
+                        <h2 className={Styles.heroSectionh2Style}>your convenience.</h2>
+                        <p className={Styles.heroSectionpStyle}>Shop smarter with AI-powered recommendations, personalized collections, and seamless checkout—all in one place.</p>
+                    </div>
+                </div>
+                <div className="h-34 row-span-14 col-span-3">BOTTOM NAVIGATION</div>
             </div>
         </div>
     );
