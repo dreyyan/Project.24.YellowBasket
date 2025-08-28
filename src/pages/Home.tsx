@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 // Components
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Home = () => {
     document.title = "YellowBasket: Dashboard";
@@ -14,14 +15,17 @@ const Home = () => {
                         <Header/>
                     </div>
                 </div>
-                <div className="flex flex-col row-span-200 col-span-3 bg-background px-[4%] pt-[10%]">
-                    <div className="">
+                <div className="flex flex-col row-span-200 col-span-3 bg-white-500 px-[4%] pt-[10%]">
+                    <div className={Styles.heroSectionDivStyle}>
+                        <img src="yellow-basket.png" className={Styles.heroSectionImageStyle}/>
                         <h1 className={Styles.heroSectionh1Style}>Shop at</h1>
                         <h2 className={Styles.heroSectionh2Style}>your convenience.</h2>
                         <p className={Styles.heroSectionpStyle}>Shop smarter with AI-powered recommendations, personalized collections, and seamless checkout—all in one place.</p>
                     </div>
                 </div>
-                <div className="h-34 row-span-14 col-span-3">BOTTOM NAVIGATION</div>
+                <div className="h-34 row-span-14 col-span-3">
+                    <Footer/>
+                </div>
             </div>
         </div>
     );
