@@ -3,6 +3,9 @@
 body {
   font-family: 'Libertinus Serif Display', serif;
   color: #1E2939;
+  background-image: url('/background.png');
+  background-size: cover;      /* makes the image cover the container */
+  background-position: center; /* centers the image */
 }
 
 /* COLORS */
