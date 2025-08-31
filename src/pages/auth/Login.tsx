@@ -24,14 +24,12 @@ const Login = () => {
 
     return (
     <div className={Styles.mainDivStyle}>
-
         <div className={Styles.loginDivStyle}>
             <h1 className={Styles.h1Style}>App Name</h1>
             <h2 className={Styles.h2Style}>LOGIN</h2>
             <form action="/login-form" className={Styles.formStyle}>
                 <label htmlFor="username-email" className={Styles.inputLabelStyle}>Username or Email</label>
                 <input type="text" className={Styles.inputStyle}/>
-
                 <label htmlFor="password" className={Styles.inputLabelStyle}>Password</label>
                 <input type="password" className={Styles.inputStyle}/>
             </form>
